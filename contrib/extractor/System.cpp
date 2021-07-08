@@ -97,7 +97,7 @@ float CONF_flat_height_delta_limit = 0.005f; // If max - min less this value - s
 float CONF_flat_liquid_delta_limit = 0.001f; // If max - min less this value - liquid surface is flat
 
 // List MPQ for extract from
-const char* CONF_mpq_list[] =
+static char const* CONF_mpq_list[] =
 {
     "dbc.MPQ",
     "terrain.MPQ",
